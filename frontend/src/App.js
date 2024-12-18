@@ -45,7 +45,7 @@ function App() {
     <main className="main">
       <div className="content">
         <Routes>
-          <Route path="/product/:id" element={<ProductScreen />} />
+          <Route path="/products/:id" element={<ProductScreen />} />
           <Route path="/" exact={true} element={<HomeScreen />} />
         </Routes>
       </div>
